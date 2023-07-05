@@ -12081,7 +12081,7 @@ body .navbar .img-logo, html .navbar .img-logo {
   height: 5vh;
   display: block;
 }
-body .dropdown-menu, html .dropdown-menu {
+body .navbar .dropdown-menu, html .navbar .dropdown-menu {
   border: none !important;
 }
 body .home-container, html .home-container {

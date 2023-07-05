@@ -76,11 +76,13 @@ body, html {
             display: block;
         }
 
+        .dropdown-menu {
+            border: none !important;
+        }
+
     }
 
-    .dropdown-menu {
-        border: none !important;
-    }
+
 
    
 
