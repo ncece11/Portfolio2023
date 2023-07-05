@@ -12240,17 +12240,10 @@ body .floating-button, html .floating-button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-body .floating-button.linkedin, html .floating-button.linkedin {
-  background-color: #5177c9;
-  right: 160px;
-}
-body .floating-button.github, html .floating-button.github {
-  background-color: #af7777;
-  right: 90px;
-}
-body .floating-button.codepen, html .floating-button.codepen {
-  background-color: #dfd76b;
+body .floating-button.darkmode, html .floating-button.darkmode {
+  background-color: #3d3d3d;
   right: 20px;
+  z-index: 1000;
 }
 body .floating-button:hover, html .floating-button:hover {
   background-color: #555;
