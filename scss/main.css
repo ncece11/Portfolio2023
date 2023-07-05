@@ -12082,7 +12082,7 @@ body .navbar .img-logo, html .navbar .img-logo {
   display: block;
 }
 body .dropdown-menu, html .dropdown-menu {
-  border-color: none !important;
+  border: none !important;
 }
 body .home-container, html .home-container {
   justify-content: center;
