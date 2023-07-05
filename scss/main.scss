@@ -41,6 +41,7 @@ body, html {
     }
 
     .navbar {
+
         a {
             color: $primary-text !important;
             // font-weight: 600;
@@ -75,9 +76,10 @@ body, html {
             display: block;
         }
 
-        .dropdown-menu {
-            border-color: none !important;
-        }
+    }
+
+    .dropdown-menu {
+        border-color: none !important;
     }
 
    
