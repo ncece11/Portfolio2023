@@ -12032,16 +12032,52 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  --clr-light: aliceblue;
+  --clr-dark: #00332a;
+  --bs-body-bg: #283447;
+  --foreground: var(--clr-dark);
+  --background: var(--clr-light);
+}
+
 body, html {
   font-family: monospace;
   color: darkgrey !important;
   font-size: 2.2vh;
   background-color: aliceblue;
+  background: var(--background);
+  color: var(--foreground);
   /**
   * ----------------------------------------
   * animation slide-fwd-center
   * ----------------------------------------
   */
+}
+body .darkmode, html .darkmode {
+  --clr-light: darkgrey;
+  --clr-dark: #283447;
+  --foreground: var(--clr-light);
+  --background: var(--clr-dark);
+}
+body .darkmode .card, html .darkmode .card {
+  background-color: #2D4358;
+}
+body .darkmode .form-control, html .darkmode .form-control {
+  background-color: #283447;
+}
+body .darkmode .label, html .darkmode .label {
+  background-color: #283447;
+}
+body .dark-mode-toggle, html .dark-mode-toggle {
+  position: absolute;
+  z-index: 100;
+  top: 1em;
+  right: 1em;
+  color: var(--foreground);
+  background: transparent;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
 }
 body .home-sec, html .home-sec {
   height: 60vh !important;
