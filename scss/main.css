@@ -12302,4 +12302,12 @@ body .contact, html .contact {
   margin-right: 20vh;
   margin-top: 5vh;
   margin-bottom: 5vh;
+}
+body .icon-container, html .icon-container {
+  width: 40px;
+  height: auto;
+}
+body .icon-container .contact-icon, html .icon-container .contact-icon {
+  font-size: 30px;
+  color: #A9A9A9;
 }/*# sourceMappingURL=main.css.map */
