@@ -141,7 +141,7 @@ body, html {
 
         .home-title {
             text-align: center;
-            font-size: 12vh;
+            font-size:  129.6px;
             margin-top: 25vh;
         }
 
@@ -505,6 +505,7 @@ body, html {
       display: block;
       text-align: center;
       padding: 16px;
+      padding-left: 5px;
       transition: all 0.3s ease;
       color: darkgrey;
       font-size: 20px;
@@ -534,41 +535,51 @@ body, html {
     .vertical-line-left {
       border-left: 2px solid darkgrey;
       height: 500px;
-      left: 45%;
+      left: 40%;
       position: absolute;
     
     }
+
+
+
+    // @media screen and (min-width: 425px) { 
+
+    //     .home-title {
+    //         font-size: 5vh;
+    //     }
+        
+    // }
+
+    @media only screen and (max-width: 600px) {
+        .home-title {
+            font-size: 2rem !important;
+        }
+        .typewriter {
+            font-size: 1rem !important;
+        }
+
+        .main-timeline {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .right {
+            padding-right: 0px;
+        }
+
+        .left {
+            padding-right: 0px;
+        }
+
+        section {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        
+    }
+
     
        
 } //body end tag
-
-
-
-    // // `xs` returns only a ruleset and no media query
-    // // ... { ... }
-
-    // // `sm` applies to x-small devices (portrait phones, less than 576px)
-    // @media (max-width: 575.98px) { 
-        
-    // }
-
-    // // `md` applies to small devices (landscape phones, less than 768px)
-    // @media (max-width: 767.98px) { 
-        
-    // }
-
-    // // `lg` applies to medium devices (tablets, less than 992px)
-    // @media (max-width: 991.98px) { 
-        
-    // }
-
-    // // `xl` applies to large devices (desktops, less than 1200px)
-    // @media (max-width: 1199.98px) { 
-        
-    // }
-
-    // // `xxl` applies to x-large devices (large desktops, less than 1400px)
-    // @media (max-width: 1399.98px) { 
-        
-    // }
 

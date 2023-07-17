@@ -12124,7 +12124,7 @@ body .home-container, html .home-container {
 }
 body .home-container .home-title, html .home-container .home-title {
   text-align: center;
-  font-size: 12vh;
+  font-size: 129.6px;
   margin-top: 25vh;
 }
 body .home-container .resume, html .home-container .resume {
@@ -12358,6 +12358,7 @@ body .icon-bar a, html .icon-bar a {
   display: block;
   text-align: center;
   padding: 16px;
+  padding-left: 5px;
   transition: all 0.3s ease;
   color: darkgrey;
   font-size: 20px;
@@ -12381,6 +12382,28 @@ body .content, html .content {
 body .vertical-line-left, html .vertical-line-left {
   border-left: 2px solid darkgrey;
   height: 500px;
-  left: 45%;
+  left: 40%;
   position: absolute;
+}
+@media only screen and (max-width: 600px) {
+  body .home-title, html .home-title {
+    font-size: 2rem !important;
+  }
+  body .typewriter, html .typewriter {
+    font-size: 1rem !important;
+  }
+  body .main-timeline, html .main-timeline {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  body .right, html .right {
+    padding-right: 0px;
+  }
+  body .left, html .left {
+    padding-right: 0px;
+  }
+  body section, html section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
