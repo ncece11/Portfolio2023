@@ -12068,6 +12068,9 @@ body .darkmode .form-control, html .darkmode .form-control {
 body .darkmode .label, html .darkmode .label {
   background-color: #283447 !important;
 }
+body .darkmode .dropdown-menu, html .darkmode .dropdown-menu {
+  background-color: #283447 !important;
+}
 body .dark-mode-toggle, html .dark-mode-toggle {
   position: absolute;
   z-index: 100;
@@ -12080,6 +12083,9 @@ body .dark-mode-toggle, html .dark-mode-toggle {
 }
 body .home-sec, html .home-sec {
   height: 70vh !important;
+}
+body .bi-eye, html .bi-eye {
+  float: right;
 }
 body .btn-primary, html .btn-primary {
   color: white;
