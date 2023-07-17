@@ -12316,7 +12316,7 @@ body .p-footer, html .p-footer {
   margin-bottom: 0px !important;
 }
 body .contact-sec, html .contact-sec {
-  height: 90vh !important;
+  height: 100vh !important;
 }
 body .icon-bar-right, html .icon-bar-right {
   position: fixed;
@@ -12384,6 +12384,13 @@ body .vertical-line-left, html .vertical-line-left {
   left: 40%;
   position: absolute;
 }
+body .end-title, html .end-title {
+  margin-top: 25%;
+  font-size: 129.6px;
+}
+body .end-desc, html .end-desc {
+  font-size: 2rem;
+}
 @media only screen and (max-width: 600px) {
   body .home-title, html .home-title {
     font-size: 2rem !important;
@@ -12404,5 +12411,12 @@ body .vertical-line-left, html .vertical-line-left {
   body section, html section {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  body .end-title, html .end-title {
+    margin-top: 100%;
+    font-size: 2rem;
+  }
+  body .end-desc, html .end-desc {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=main.css.map */

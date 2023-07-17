@@ -446,7 +446,7 @@ body, html {
     }
 
     .contact-sec {
-        height: 90vh !important;
+        height: 100vh !important;
     }
 
     
@@ -540,16 +540,17 @@ body, html {
     
     }
 
+    .end-title {
+        margin-top: 25%;
+        font-size:  129.6px;
+    }
+
+    .end-desc {
+        font-size: 2rem;
+    }
 
 
-    // @media screen and (min-width: 425px) { 
-
-    //     .home-title {
-    //         font-size: 5vh;
-    //     }
-        
-    // }
-
+    //FOR RESPONSIVE
     @media only screen and (max-width: 600px) {
         .home-title {
             font-size: 2rem !important;
@@ -574,6 +575,15 @@ body, html {
         section {
             margin-left: 20px;
             margin-right: 20px;
+        }
+
+        .end-title {
+            margin-top: 100%;
+            font-size: 2rem;
+        }
+
+        .end-desc {
+            font-size: 1rem;
         }
 
         
