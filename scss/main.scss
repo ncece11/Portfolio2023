@@ -13,7 +13,7 @@ $btn-color: white;
     // --clr-primary: #dbffa2;
     // --clr-secondary: #c3fcf2;
     // --clr-accent: #ff7750;
-    --bs-body-bg: #283447;
+    // --bs-body-bg: #283447;
     // --bs-card-bg: #2D4358;
   
     --foreground: var(--clr-dark);
@@ -49,31 +49,32 @@ body, html {
 
         .form-control {
             background-color: #283447;
+            color: darkgrey;
         }
 
         .label {
-            background-color: #283447;
+            background-color: #283447 !important;
         }
         
     }
       
-      .dark-mode-toggle {
-        position: absolute;
-        z-index: 100;
-        top: 1em;
-        right: 1em;
-        color: var(--foreground);
-        // border: 2px solid currentColor;
-        // padding: 4px;
-        background: transparent;
-        cursor: pointer;
-        // border-radius: 5px;
-        width: 30px;
-        height: 30px;
-      }
+    .dark-mode-toggle {
+      position: absolute;
+      z-index: 100;
+      top: 1em;
+      right: 1em;
+      // color: var(--foreground);
+      // border: 2px solid currentColor;
+      // padding: 4px;
+      background: transparent;
+      cursor: pointer;
+      // border-radius: 5px;
+      width: 30px;
+      height: 30px;
+    }
 
     .home-sec {
-        height: 60vh !important;
+        height: 70vh !important;
     }
 
     .btn-primary {
@@ -134,10 +135,6 @@ body, html {
         }
 
     }
-
-
-
-   
 
     .home-container {
         justify-content: center;
@@ -426,45 +423,152 @@ body, html {
         margin-bottom: 5vh;
     }
 
-    .icon-container {
-        width: 40px;
-        height: auto;
-
-        .contact-icon {
-            font-size: 30px;
-            color: #A9A9A9;
-        }
-    }
-
-
-
-
-    // `xs` returns only a ruleset and no media query
-    // ... { ... }
-
-    // `sm` applies to x-small devices (portrait phones, less than 576px)
-    @media (max-width: 575.98px) { 
+    .contact-icon {
+        font-size: 40px;
+        color: #A9A9A9;
+        
+        // margin: 3vh;
         
     }
 
-    // `md` applies to small devices (landscape phones, less than 768px)
-    @media (max-width: 767.98px) { 
-        
+    .form-control {
+        color: darkgrey;
     }
 
-    // `lg` applies to medium devices (tablets, less than 992px)
-    @media (max-width: 991.98px) { 
-        
+    .contact-img-icon {
+        margin-bottom: 3rem;
+        padding-bottom: 2em;
+
     }
 
-    // `xl` applies to large devices (desktops, less than 1200px)
-    @media (max-width: 1199.98px) { 
-        
+    .p-footer{
+        margin-bottom: 0px !important;
     }
 
-    // `xxl` applies to x-large devices (large desktops, less than 1400px)
-    @media (max-width: 1399.98px) { 
-        
+    .contact-sec {
+        height: 90vh !important;
     }
 
-}
+    
+
+    //RIGHT SIDE
+    .icon-bar-right {
+        position: fixed;
+        top: 50%;
+        right:0%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+      
+    .icon-bar-right a {
+      display: block;
+      text-align: center;
+      padding: 16px;
+      transition: all 0.3s ease;
+      color: darkgrey;
+      font-size: 20px;
+    }
+
+    .content {
+        margin-left: 75px;
+        font-size: 30px;
+    }
+
+    .vertical-line-right {
+      border-left: 2px solid darkgrey;
+      height: 500px;
+      right: 45%;
+      position: absolute;
+    
+    }
+
+    .vertical-letter {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
+      
+      
+
+    //LEFT SIDE
+    .icon-bar {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+      
+    .icon-bar a {
+      display: block;
+      text-align: center;
+      padding: 16px;
+      transition: all 0.3s ease;
+      color: darkgrey;
+      font-size: 20px;
+    }
+      
+    .icon-bar a:hover {
+        color: $primary;
+    }
+
+    .codepen img:nth-child(2) {
+        display: none; 
+    }
+      
+    .codepen:hover img:nth-child(1) {
+        display: none;
+    }
+      
+    .codepen:hover img:nth-child(2) {
+        display: block;
+    }
+      
+    .content {
+      margin-left: 75px;
+      font-size: 30px;
+    }
+      
+    .vertical-line-left {
+      border-left: 2px solid darkgrey;
+      height: 500px;
+      left: 45%;
+      position: absolute;
+    
+    }
+    
+       
+} //body end tag
+
+
+
+    // // `xs` returns only a ruleset and no media query
+    // // ... { ... }
+
+    // // `sm` applies to x-small devices (portrait phones, less than 576px)
+    // @media (max-width: 575.98px) { 
+        
+    // }
+
+    // // `md` applies to small devices (landscape phones, less than 768px)
+    // @media (max-width: 767.98px) { 
+        
+    // }
+
+    // // `lg` applies to medium devices (tablets, less than 992px)
+    // @media (max-width: 991.98px) { 
+        
+    // }
+
+    // // `xl` applies to large devices (desktops, less than 1200px)
+    // @media (max-width: 1199.98px) { 
+        
+    // }
+
+    // // `xxl` applies to x-large devices (large desktops, less than 1400px)
+    // @media (max-width: 1399.98px) { 
+        
+    // }
+

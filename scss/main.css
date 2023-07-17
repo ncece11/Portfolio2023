@@ -12035,7 +12035,6 @@ textarea.form-control-lg {
 :root {
   --clr-light: aliceblue;
   --clr-dark: #00332a;
-  --bs-body-bg: #283447;
   --foreground: var(--clr-dark);
   --background: var(--clr-light);
 }
@@ -12064,23 +12063,23 @@ body .darkmode .card, html .darkmode .card {
 }
 body .darkmode .form-control, html .darkmode .form-control {
   background-color: #283447;
+  color: darkgrey;
 }
 body .darkmode .label, html .darkmode .label {
-  background-color: #283447;
+  background-color: #283447 !important;
 }
 body .dark-mode-toggle, html .dark-mode-toggle {
   position: absolute;
   z-index: 100;
   top: 1em;
   right: 1em;
-  color: var(--foreground);
   background: transparent;
   cursor: pointer;
   width: 30px;
   height: 30px;
 }
 body .home-sec, html .home-sec {
-  height: 60vh !important;
+  height: 70vh !important;
 }
 body .btn-primary, html .btn-primary {
   color: white;
@@ -12303,11 +12302,85 @@ body .contact, html .contact {
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
-body .icon-container, html .icon-container {
-  width: 40px;
-  height: auto;
-}
-body .icon-container .contact-icon, html .icon-container .contact-icon {
-  font-size: 30px;
+body .contact-icon, html .contact-icon {
+  font-size: 40px;
   color: #A9A9A9;
+}
+body .form-control, html .form-control {
+  color: darkgrey;
+}
+body .contact-img-icon, html .contact-img-icon {
+  margin-bottom: 3rem;
+  padding-bottom: 2em;
+}
+body .p-footer, html .p-footer {
+  margin-bottom: 0px !important;
+}
+body .contact-sec, html .contact-sec {
+  height: 90vh !important;
+}
+body .icon-bar-right, html .icon-bar-right {
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+}
+body .icon-bar-right a, html .icon-bar-right a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: darkgrey;
+  font-size: 20px;
+}
+body .content, html .content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+body .vertical-line-right, html .vertical-line-right {
+  border-left: 2px solid darkgrey;
+  height: 500px;
+  right: 45%;
+  position: absolute;
+}
+body .vertical-letter, html .vertical-letter {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+body .icon-bar, html .icon-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+body .icon-bar a, html .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: darkgrey;
+  font-size: 20px;
+}
+body .icon-bar a:hover, html .icon-bar a:hover {
+  color: lightcoral;
+}
+body .codepen img:nth-child(2), html .codepen img:nth-child(2) {
+  display: none;
+}
+body .codepen:hover img:nth-child(1), html .codepen:hover img:nth-child(1) {
+  display: none;
+}
+body .codepen:hover img:nth-child(2), html .codepen:hover img:nth-child(2) {
+  display: block;
+}
+body .content, html .content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+body .vertical-line-left, html .vertical-line-left {
+  border-left: 2px solid darkgrey;
+  height: 500px;
+  left: 45%;
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */
