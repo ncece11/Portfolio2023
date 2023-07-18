@@ -35,6 +35,12 @@ body, html {
     background: var(--background);
     color: var(--foreground);
 
+    // REMOVING WHITE SPACE
+    width: auto!important;
+    overflow-x: hidden !important;
+
+    
+
     .darkmode {
         // icon button color
         --clr-light: darkgrey;
